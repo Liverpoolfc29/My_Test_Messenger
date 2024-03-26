@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.my_test_messenger"
-        minSdk = 21
+        minSdk = 34
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -32,7 +32,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
     buildToolsVersion = "34.0.0"
 }
