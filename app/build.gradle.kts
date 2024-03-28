@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.my_test_messenger"
-        minSdk = 21
+        minSdk = 34
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -32,13 +32,13 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
     buildToolsVersion = "34.0.0"
 }
 
 dependencies {
-    implementation("com.mikepenz:materialdrawer:9.0.2")
+    implementation("com.mikepenz:materialdrawer:7.0.0")
 
     //required support lib modules
     implementation ("androidx.recyclerview:recyclerview:1.3.2")
@@ -47,7 +47,7 @@ dependencies {
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
 
     // Add for NavController support
-    implementation ("com.mikepenz:materialdrawer-nav:9.0.2")
+    implementation ("com.mikepenz:materialdrawer-nav:7.0.0")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
