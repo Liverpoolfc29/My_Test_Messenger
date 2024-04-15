@@ -4,7 +4,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.example.my_test_messenger.R
-import com.example.my_test_messenger.ui.SettingsFragment
+import com.example.my_test_messenger.ui.fragments.SettingsFragment
 import com.mikepenz.materialdrawer.AccountHeader
 import com.mikepenz.materialdrawer.AccountHeaderBuilder
 import com.mikepenz.materialdrawer.Drawer
@@ -18,6 +18,7 @@ class AppDrawer(val mainActivity: AppCompatActivity, private val toolbar: Toolba
 
     private lateinit var mDrawer: Drawer
     private lateinit var mHeader: AccountHeader
+    private lateinit var mAppDrawer: AppDrawer
 
     fun create() {
         createHeader()
