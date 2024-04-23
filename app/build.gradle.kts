@@ -40,6 +40,9 @@ android {
 dependencies {
     implementation("com.mikepenz:materialdrawer:7.0.0")
 
+    // CircleImageView
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
     //required support lib modules
     implementation ("androidx.recyclerview:recyclerview:1.3.2")
     implementation ("androidx.annotation:annotation:1.7.1")
@@ -56,4 +59,5 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
 }
