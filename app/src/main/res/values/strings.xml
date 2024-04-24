@@ -5,4 +5,10 @@
     <string name="settings_default_userName">Kolo Ture</string>
     <string name="settings_default_Status">online</string>
     <string name="settings_text_account">Account</string>
+    <string name="settings_default_phoneNumber">+38099NumberPhone</string>
+    <string name="settings_label_phoneNumber">Push to change phone number</string>
+    <string name="settings_default_userNickname">User212333</string>
+    <string name="settings_label_nickname">User name</string>
+    <string name="settings_default_bio">about you</string>
+    <string name="settings_label_bio">Write something about your life</string>
 </resources>
