@@ -34,7 +34,7 @@
             android:layout_marginTop="@dimen/vertical_margin"
             android:text="@string/settings_default_userName"
             android:textColor="@color/colorAccent"
-            android:textSize="@dimen/normal_text"
+            android:textSize="@dimen/normalText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/settings_user_photo"
             app:layout_constraintTop_toTopOf="@id/settings_user_photo" />

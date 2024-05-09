@@ -13,4 +13,10 @@
     <string name="settings_label_bio">Write something about your life</string>
     <string name="settings_menu_changeName">Change name</string>
     <string name="settings_menu_exit">Exit</string>
+    <string name="cd_register_image">register_image</string>
+    <string name="register_text_enter_code">Enter Code</string>
+    <string name="register_text_weSend">We send you sms with code to your phone</string>
+    <string name="register_hint_defaultCode">- - - - - -</string>
+    <string name="register_title_your_phone">Your phone</string>
+    <string name="register_toast_enterPhone">Enter your phone number please</string>
 </resources>
